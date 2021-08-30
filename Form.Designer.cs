@@ -92,8 +92,8 @@ namespace CellSearchGenerator
             this.Controls.Add(this.GenerateButton);
             this.MaximizeBox = false;
             this.Name = "Form";
+            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "CSG";
             this.Load += new System.EventHandler(this.Form_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
